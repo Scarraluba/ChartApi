@@ -4,8 +4,8 @@ import concrete.goonie.ui.AppFrame;
 
 import javax.swing.*;
 
-public class Main extends AppFrame {
-    public Main() {
+public class AppRunner extends AppFrame {
+    public AppRunner() {
         super("My Application");
 
         // Register fragments
@@ -18,7 +18,7 @@ public class Main extends AppFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            Main app = new Main();
+            AppRunner app = new AppRunner();
             app.setVisible(true);
         });
     }
