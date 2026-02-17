@@ -6,7 +6,7 @@
 
     <groupId>concrete.goonie</groupId>
     <artifactId>ChartApi</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.2</version>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
