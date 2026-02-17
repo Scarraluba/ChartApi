@@ -1,6 +1,8 @@
-package concrete.goonie;
+package concrete.goonie.chart.internal.render;
 
+/** Utility for human-friendly axis steps. */
 public final class NiceScale {
+    private NiceScale() {}
 
     public static double niceStep(double range, int targetTicks) {
         if (range <= 0) return 1;
