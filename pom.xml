@@ -7,6 +7,11 @@
     <groupId>concrete.goonie</groupId>
     <artifactId>ChartApi</artifactId>
     <version>1.2.0</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>chart-core</module>
+        <module>chart-swing</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
